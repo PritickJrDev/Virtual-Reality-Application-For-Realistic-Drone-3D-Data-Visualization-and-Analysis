@@ -1,0 +1,89 @@
+{
+    "name": "UIinput",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "9974383e-5830-4dae-9b09-f24b05a86e88",
+            "actions": [
+                {
+                    "name": "Wrist Menu",
+                    "type": "Button",
+                    "id": "12809ccd-65e1-4248-babe-ece6ec170914",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8968b4f0-9bd6-46ea-a083-c35d176a44e4",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard, mouse and xr controller",
+                    "action": "Wrist Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7fc6a4d-1bbc-4f97-8fbc-a66485cd0113",
+                    "path": "<XRController>{LeftHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard, mouse and xr controller",
+                    "action": "Wrist Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c731fbcb-5f57-4d41-b924-bc5986912730",
+                    "path": "*/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard, mouse and xr controller",
+                    "action": "Wrist Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8445d5a1-c3a0-457d-ac79-1e9c4a9c93fe",
+                    "path": "<XRSimulatedController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard, mouse and xr controller",
+                    "action": "Wrist Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "keyboard, mouse and xr controller",
+            "bindingGroup": "keyboard, mouse and xr controller",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
